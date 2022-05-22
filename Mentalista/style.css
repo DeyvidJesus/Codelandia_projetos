@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans serif;
+  min-height: 600px;
+  background-image: url("https://thumbs.dreamstime.com/b/faixas-de-laser-p%C3%B3dio-vazio-neon-fluorescente-verde-luminoso-azul-tri%C3%A2ngulo-el%C3%A9trico-parede-forma-concreto-linhas-p%C3%B3-166653175.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom static;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+#transparencia {
+  background-color: rgba(0, 0, 0, 0.374);
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+}

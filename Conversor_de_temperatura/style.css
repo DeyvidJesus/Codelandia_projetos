@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;600&display=swap');
+
+body{
+  font-family: 'Azeret Mono', monospace;
+  text-align: center;
+  background-color: #E8E8E8;
+}
+
+h1{
+  font-weight: 600;
+}
+
+#imagem{
+  width: 500px;
+}
+
+#celsius{
+  border-radius: 8px;
+  border-style: solid;
+  border-color: black;
+  font-size: 15px;
+}
+
+#botao{
+  border-radius: 8px;
+  border-style: solid;
+  border-color: black;
+  background-color: #64C5D9;
+}
+
+#botao:hover{
+  background-color: #4d9dad;
+}
